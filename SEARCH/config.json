@@ -1,0 +1,41 @@
+{
+  "patterns": [
+    "*.md",
+    "*.txt",
+    "*.pdf",
+    "*.docx",
+    "*.doc",
+    "*.xlsx",
+    "*.xls",
+    "*.csv",
+    "*.json",
+    "*.yaml",
+    "*.yml",
+    "*.html",
+    "*.htm",
+    "*.xml",
+    "*.rst",
+    "*.org"
+  ],
+  "exclude_rules": [
+    ".git",
+    ".svn",
+    "node_modules",
+    "__pycache__",
+    ".venv",
+    "venv",
+    ".env",
+    "*.pyc",
+    "*.pyo",
+    ".DS_Store",
+    "Thumbs.db",
+    "*.tmp",
+    "*.temp",
+    "*.bak",
+    "*.swp",
+    "*.swo",
+    "*~"
+  ],
+  "indexed_at": null,
+  "version": "1.0.0"
+}

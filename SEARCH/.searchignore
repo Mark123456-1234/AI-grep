@@ -1,0 +1,85 @@
+# Searchignore - exclude patterns for folder indexing
+# Uses gitignore syntax
+
+# Version control
+.git/
+.svn/
+.hg/
+
+# Dependencies
+node_modules/
+vendor/
+bower_components/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.eggs/
+*.egg-info/
+
+# Build outputs
+dist/
+build/
+*.egg
+*.whl
+
+# IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and databases (not ours)
+*.log
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+tmp/
+temp/
+
+# Binary files (large)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Media (usually not text-searchable)
+*.mp3
+*.mp4
+*.wav
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.ico
+*.psd
+*.ai
+
+# Compiled
+*.o
+*.obj
+*.class
